@@ -1,0 +1,15 @@
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 24px 32px;
+    gap: 24px;
+}
+.image-container img{
+    height: 286px;
+    width: 286px;
+}
+
+.image-container img:hover{
+    scale: 1.1;
+    transition: .3s;
+}

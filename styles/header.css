@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
 .profile{
     display: flex;
     width: 592px;
@@ -15,6 +20,7 @@
 .presentation p{
     padding-block: 4px;
     margin-top: 8px;
+    font: var(--text-md) ;
 }
 
 .content ul {
@@ -27,4 +33,7 @@
     display: flex;
     align-items: center;
     width: 280px;
+    gap: 8px;
+
+    font: var(--text-md);
 }
